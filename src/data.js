@@ -1,5 +1,6 @@
+const data = {
+  products:[
 
-[
   {
    "id": "100",
    "imgg": "https://m.media-amazon.com/images/I/71gUjj5NN1L._SL1500_.jpg",
@@ -46,5 +47,5 @@
    "namee": "SPIKE Tummy Trimmer Ab Exerciser for Men and Women Waist Trimming, Bicep, Body Toner Exercise Equipment for Home Yellow",
    "price":100
    
-  }
-]
+  }]}
+  export default data
