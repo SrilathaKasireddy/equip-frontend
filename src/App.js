@@ -113,6 +113,7 @@ function App() {
               <div>
                 <Button color="inherit" onClick = {()=>
                    navigate("/Login")}>Home</Button>
+                   
                 
                 <Button color="inherit" onClick = {()=>
                    navigate("/Equipments")}>Equipments</Button>
@@ -137,6 +138,7 @@ function App() {
             <Route path="*" element={<NotFound />} />
 <Route path ="/ForgetPassword" element={<ForgetPassword/>}/>
             <Route path="/Login" element={<Login/>}/>
+            <Route path="/" element={<Login/>}/>
             
           </Routes>
         </div>
